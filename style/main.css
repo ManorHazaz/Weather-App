@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+:root {
+    --light-mode: #1e90ff;
+    --dark-mode: #ffffff;
+  }
+
+body
+{
+    background-color: #1e1e1e;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #eeeeee;
+    text-align: center;
+}
+
+form
+{
+    width: 90rem;
+    max-width: 330px;
+    height: 34rem;
+    background-color: #ffffff;
+    border-radius: 1vw;
+    margin: 2rem auto;
+    position: relative;
+}
+
+.data
+{
+    width: 90%;
+    height: 61%;
+    background-color: #427bff;
+    margin: 1rem auto 0.2rem;
+    border-radius: 1vw;
+    border: none;
+}
+
+.search-input
+{
+    margin: 1rem 0 0.2rem;
+    border: none;
+    border-radius: 1vw;
+    background-color: #eeeeee;
+    height: 2rem;
+    padding-left: 1rem;
+}
+
+.search-input-autocomplete
+{
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.autofield
+{
+    position: absolute;
+    background-color: darkgray;
+    list-style: none;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    margin: 0;
+    padding: 0;
+    left: 4.7rem;
+    top: 3rem;
+    width: 11.25rem;
+    font-size: 1rem;
+}
+
+.focus
+{
+    background-color: gray;
+}
+
+textarea:focus, input:focus
+{
+    outline: none;
+}
+
+.search-btn
+{
+    border: none;
+    background-color: transparent;
+    position: absolute;
+    top: 1.5rem;
+    left: 16.5rem;
+}
+
+.search-btn:focus
+{
+    outline: none;
+}
+.location
+{
+    display: block;
+    text-align: left;
+}
+
+h1 
+{
+    display: inline-block;
+    font-size: 1.5rem;
+    margin: 0.5rem 0 0.2rem 1rem;
+}
+
+.img
+{
+    margin: 1.5rem auto 0.2rem;
+    width: 4.5rem;
+}
+
+.main-status
+{
+    display: block;
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: #ffffff;
+}
+
+.date
+{
+    display: block;
+    font-size: 1rem;
+    margin: 0.1rem;
+    color: #ffffff;
+}
+
+.deg
+{
+    display: block;
+    font-size: 3rem;
+    font-weight: 900;
+    color: #ffffff;
+}
+
+/* small data */
+
+.data-table
+{
+    margin-top: 0.2rem;
+    width: 102%;
+    border-collapse: collapse
+}
+
+td
+{
+    position: relative;
+    padding: 0.3rem 0 0.3rem 1rem;
+    border: 0.05rem solid #ffffff;
+    border-left: none;
+}
+
+
+.name
+{
+    color: #ffffff;
+    display: block;
+    font-size: 0.8rem;
+
+}
+
+.contant
+{
+    color: #ffffff;
+    display: block;
+    font-size: 0.6rem;
+    margin: 0.4rem 0;
+
+}
+
+.logo
+{
+    color: #ffffff;
+    position: absolute;
+    top: 1rem;
+    left: 7rem;
+}
+
+/* days */
+
+.days
+{
+    width: 99%;
+    margin: 0.4rem auto;
+}
+
+.day
+{
+    margin: 0 0.1rem;
+    display: inline-block;
+    border: 0.1rem solid #eeeeee;
+    border-radius: 1vw;
+    width: 3rem;
+    height: 5.2rem;
+}
+
+.day-title
+{
+    display: block;
+    margin-top: 0.2rem;
+    font-size: 0.8rem;
+}
+
+.day-img
+{
+
+    display: block;
+    width: 1.5rem;
+    margin: 0.4rem auto;
+}
+
+.day-deg
+{
+    font-size: 0.9rem;
+}
+
+
+@media screen and (max-width: 992px)
+{
+
+}
+
+@media screen and (max-width: 600px)
+{
+
+}
+
+@media screen and (max-width: 380px)
+{
+
+}
